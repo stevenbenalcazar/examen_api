@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    .weather-container {
+      text-align: center;
+    }
+    .weather-icon {
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="weather-container">
+    <h1>Weather App</h1>
+    <h2 id="ubicacion">Ubicación</h2>
+    <img id="icono-animado" class="weather-icon" src="" alt="Icono del tiempo">
+    <p id="temperatura-valor">-- °C</p>
+    <p id="temperatura-descripcion">Descripción</p>
+    <p id="viento-velocidad">-- m/s</p>
+  </div>
+  
+  <script type="module">
+    window.addEventListener("load", () => {
+      import { v1 } from 'uuid'; // Esto solo funciona en módulos ES6
+      let lon;
+      let lat;
+
+      let temperaturaValor = document.getElementById("temperatura-valor");
+      let temperaturaDescripcion = document.getElementById("temperatura-descripcion");
+      let ubicacion = document.getElementById("ubicacion");
+      let vientoVelocidad = document.getElementById("viento-velocidad");
+      let iconoAnimado = document.getElementById("icono-animado");
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((posicion) => {
+          lon = posicion.coords.longitude;
+          lat = posicion.coords.latitude;
+
+          const weatherApiKey = "9871a8423e7fb66f6871bd793896494c";
+          const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=Ecuador&lang=es&units=metric&appid=${weatherApiKey}`;
+
+          fetch(weatherUrl)
+            .then(response => response.json())
+            .then(data => {
+              let temp = Math.round(data.main.temp);
+              temperaturaValor.textContent = `${temp} °C`;
+
+              let desc = data.weather[0].description;
+              temperaturaDescripcion.textContent = desc.toUpperCase();
+              ubicacion.textContent = data.name;
+
+              vientoVelocidad.textContent = `${data.wind.speed} m/s`;
+
+              switch (data.weather[0].main) {
+                case "Thunderstorm":
+                  iconoAnimado.src = "animated/thunder.svg";
+                  break;
+                case "Drizzle":
+                  iconoAnimado.src = "animated/rainy-2.svg";
+                  break;
+                case "Rain":
+                  iconoAnimado.src = "animated/rainy-7.svg";
+                  break;
+                case "Snow":
+                  iconoAnimado.src = "animated/snowy-6.svg";
+                  break;
+                case "Clear":
+                  iconoAnimado.src = "animated/day.svg";
+                  break;
+                case "Atmosphere":
+                  iconoAnimado.src = "animated/weather.svg";
+                  break;
+                case "Clouds":
+                  iconoAnimado.src = "animated/cloudy-day-1.svg";
+                  break;
+                default:
+                  iconoAnimado.src = "animated/cloudy-day-1.svg";
+              }
+            })
+            .catch(error => console.error(error));
+        });
+
+        // Obtener la IP del usuario
+        fetch('https://ipgeolocation.abstractapi.com/v1?api_key=YOUR_API_KEY')
+          .then(response => response.json())
+          .then(ipData => {
+            console.log(ipData);
+
+            // Validación de correo
+            const emailUrl = "https://emailvalidation.abstractapi.com/v1/?api_key=5e44a69f672f4e35b71963dcbe452694&email=sabenalcazarm@uce.edu.ec";
+            
+            fetch(emailUrl)
+              .then(response => response.json())
+              .then(emailData => {
+                console.log(emailData);
+              })
+              .catch(err => console.error(err));
+          })
+          .catch(err => console.error(err));
+      }
+    });
+  </script>
+</body>
+</html>

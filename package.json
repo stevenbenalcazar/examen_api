@@ -1,0 +1,842 @@
+{
+  "name": "examen-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "graphql": "^16.8.1"
+  }
+
+  {
+    "by": "days_ago",
+    "mode": "all",
+    "valid_key": true,
+    "city_woeid": 455827,
+    "results": {
+      "2024-06-08": {
+        "city": "São Paulo, SP",
+        "sunrise": "06:44 am",
+        "sunset": "05:27 pm",
+        "temp": {
+          "max": 26,
+          "min": 14,
+          "avg": 19.6
+        },
+        "humidity": {
+          "max": 87,
+          "min": 45,
+          "avg": 70.7
+        },
+        "cloudiness": {
+          "max": 0,
+          "min": 0,
+          "avg": 0
+        },
+        "rain": {
+          "max": 0,
+          "min": 0,
+          "avg": 0
+        },
+        "wind_speedy": {
+          "max": 3.6,
+          "min": 0,
+          "avg": 1.8
+        },
+        "hourly": {
+          "00:09": {
+            "temp": 16,
+            "humidity": 78,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "01:06": {
+            "temp": 17,
+            "humidity": 75,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0.51 km/h",
+            "wind_direction": 170,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "02:06": {
+            "temp": 16,
+            "humidity": 78,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 120,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "03:06": {
+            "temp": 16,
+            "humidity": 80,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "04:06": {
+            "temp": 16,
+            "humidity": 82,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 80,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "05:06": {
+            "temp": 15,
+            "humidity": 84,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0.45 km/h",
+            "wind_direction": 72,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "06:06": {
+            "temp": 16,
+            "humidity": 82,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "07:05": {
+            "temp": 14,
+            "humidity": 87,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 110,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "08:05": {
+            "temp": 15,
+            "humidity": 84,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 120,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "09:06": {
+            "temp": 18,
+            "humidity": 75,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 70,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "10:06": {
+            "temp": 21,
+            "humidity": 69,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 50,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "11:06": {
+            "temp": 21,
+            "humidity": 66,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 70,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "12:06": {
+            "temp": 23,
+            "humidity": 58,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "3.09 km/h",
+            "wind_direction": 60,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "13:06": {
+            "temp": 24,
+            "humidity": 50,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "3.6 km/h",
+            "wind_direction": 90,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "14:06": {
+            "temp": 25,
+            "humidity": 49,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 90,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "15:06": {
+            "temp": 26,
+            "humidity": 46,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 40,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "16:06": {
+            "temp": 25,
+            "humidity": 45,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 310,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "17:06": {
+            "temp": 25,
+            "humidity": 53,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 120,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "18:05": {
+            "temp": 23,
+            "humidity": 66,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "3.6 km/h",
+            "wind_direction": 150,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "19:06": {
+            "temp": 21,
+            "humidity": 73,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "3.09 km/h",
+            "wind_direction": 180,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "20:06": {
+            "temp": 20,
+            "humidity": 80,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 140,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "21:06": {
+            "temp": 20,
+            "humidity": 78,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 80,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "22:06": {
+            "temp": 19,
+            "humidity": 78,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 80,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "23:06": {
+            "temp": 18,
+            "humidity": 81,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          }
+        }
+      },
+      "2024-06-07": {
+        "city": "São Paulo, SP",
+        "sunrise": "06:43 am",
+        "sunset": "05:27 pm",
+        "temp": {
+          "max": 25,
+          "min": 13,
+          "avg": 18.9
+        },
+        "humidity": {
+          "max": 97,
+          "min": 39,
+          "avg": 70.7
+        },
+        "cloudiness": {
+          "max": 100,
+          "min": 0,
+          "avg": 4.8
+        },
+        "rain": {
+          "max": 0,
+          "min": 0,
+          "avg": 0
+        },
+        "wind_speedy": {
+          "max": 3.6,
+          "min": 0,
+          "avg": 1.6
+        },
+        "hourly": {
+          "00:10": {
+            "temp": 16,
+            "humidity": 88,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 90,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "01:05": {
+            "temp": 17,
+            "humidity": 84,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "02:06": {
+            "temp": 16,
+            "humidity": 87,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 60,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "03:06": {
+            "temp": 15,
+            "humidity": 90,
+            "cloudiness": 5,
+            "rain": 0,
+            "wind_speedy": "0.45 km/h",
+            "wind_direction": 66,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "04:06": {
+            "temp": 15,
+            "humidity": 90,
+            "cloudiness": 5,
+            "rain": 0,
+            "wind_speedy": "0.45 km/h",
+            "wind_direction": 73,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "05:05": {
+            "temp": 15,
+            "humidity": 92,
+            "cloudiness": 2,
+            "rain": 0,
+            "wind_speedy": "0 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "06:06": {
+            "temp": 15,
+            "humidity": 91,
+            "cloudiness": 2,
+            "rain": 0,
+            "wind_speedy": "0.89 km/h",
+            "wind_direction": 87,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "07:05": {
+            "temp": 13,
+            "humidity": 97,
+            "cloudiness": 1,
+            "rain": 0,
+            "wind_speedy": "1.34 km/h",
+            "wind_direction": 95,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "08:06": {
+            "temp": 14,
+            "humidity": 96,
+            "cloudiness": 1,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 100,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "09:06": {
+            "temp": 17,
+            "humidity": 90,
+            "cloudiness": 100,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 90,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "10:06": {
+            "temp": 18,
+            "humidity": 83,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 110,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "11:06": {
+            "temp": 21,
+            "humidity": 71,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 120,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "12:06": {
+            "temp": 22,
+            "humidity": 65,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 100,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "13:06": {
+            "temp": 24,
+            "humidity": 51,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "3.09 km/h",
+            "wind_direction": 80,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "14:06": {
+            "temp": 25,
+            "humidity": 42,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "3.6 km/h",
+            "wind_direction": 70,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "15:06": {
+            "temp": 25,
+            "humidity": 39,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 10,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "16:06": {
+            "temp": 25,
+            "humidity": 41,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "17:06": {
+            "temp": 24,
+            "humidity": 40,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 100,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "18:06": {
+            "temp": 23,
+            "humidity": 45,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 80,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "19:06": {
+            "temp": 22,
+            "humidity": 50,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 80,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "20:06": {
+            "temp": 19,
+            "humidity": 57,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 60,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "21:06": {
+            "temp": 18,
+            "humidity": 63,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.34 km/h",
+            "wind_direction": 100,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "22:06": {
+            "temp": 17,
+            "humidity": 73,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "23:06": {
+            "temp": 17,
+            "humidity": 72,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 120,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          }
+        }
+      },
+      "2024-06-06": {
+        "city": "São Paulo, SP",
+        "sunrise": "06:43 am",
+        "sunset": "05:27 pm",
+        "temp": {
+          "max": 25,
+          "min": 14,
+          "avg": 18.3
+        },
+        "humidity": {
+          "max": 96,
+          "min": 47,
+          "avg": 76.7
+        },
+        "cloudiness": {
+          "max": 100,
+          "min": 0,
+          "avg": 15.6
+        },
+        "rain": {
+          "max": 0,
+          "min": 0,
+          "avg": 0
+        },
+        "wind_speedy": {
+          "max": 3.1,
+          "min": 0,
+          "avg": 1.5
+        },
+        "hourly": {
+          "00:10": {
+            "temp": 15,
+            "humidity": 89,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0.51 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "01:06": {
+            "temp": 16,
+            "humidity": 90,
+            "cloudiness": 3,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 50,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "02:06": {
+            "temp": 16,
+            "humidity": 87,
+            "cloudiness": 24,
+            "rain": 0,
+            "wind_speedy": "0.89 km/h",
+            "wind_direction": 66,
+            "condition_code": "29",
+            "condition_slug": "cloudly_night"
+          },
+          "03:06": {
+            "temp": 15,
+            "humidity": 91,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0.89 km/h",
+            "wind_direction": 76,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "04:06": {
+            "temp": 15,
+            "humidity": 91,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0.51 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "05:06": {
+            "temp": 15,
+            "humidity": 94,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.34 km/h",
+            "wind_direction": 112,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "06:06": {
+            "temp": 15,
+            "humidity": 92,
+            "cloudiness": 22,
+            "rain": 0,
+            "wind_speedy": "0.51 km/h",
+            "wind_direction": 0,
+            "condition_code": "29",
+            "condition_slug": "cloudly_night"
+          },
+          "07:06": {
+            "temp": 14,
+            "humidity": 96,
+            "cloudiness": 75,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 50,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "08:06": {
+            "temp": 14,
+            "humidity": 96,
+            "cloudiness": 75,
+            "rain": 0,
+            "wind_speedy": "3.09 km/h",
+            "wind_direction": 70,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "09:06": {
+            "temp": 15,
+            "humidity": 96,
+            "cloudiness": 100,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 90,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "10:06": {
+            "temp": 17,
+            "humidity": 88,
+            "cloudiness": 75,
+            "rain": 0,
+            "wind_speedy": "2.06 km/h",
+            "wind_direction": 80,
+            "condition_code": "20",
+            "condition_slug": "fog"
+          },
+          "11:06": {
+            "temp": 19,
+            "humidity": 79,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "2.57 km/h",
+            "wind_direction": 40,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "12:06": {
+            "temp": 21,
+            "humidity": 71,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 90,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "13:05": {
+            "temp": 22,
+            "humidity": 65,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 50,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "14:06": {
+            "temp": 25,
+            "humidity": 51,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 90,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "15:06": {
+            "temp": 24,
+            "humidity": 48,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "16:06": {
+            "temp": 24,
+            "humidity": 47,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 210,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "17:06": {
+            "temp": 23,
+            "humidity": 49,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 210,
+            "condition_code": "27",
+            "condition_slug": "clear_day"
+          },
+          "18:06": {
+            "temp": 22,
+            "humidity": 53,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 240,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "19:06": {
+            "temp": 20,
+            "humidity": 56,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "3.09 km/h",
+            "wind_direction": 150,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "20:06": {
+            "temp": 19,
+            "humidity": 73,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 160,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "21:05": {
+            "temp": 19,
+            "humidity": 76,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.54 km/h",
+            "wind_direction": 80,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "22:06": {
+            "temp": 17,
+            "humidity": 80,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "1.03 km/h",
+            "wind_direction": 50,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          },
+          "23:05": {
+            "temp": 17,
+            "humidity": 82,
+            "cloudiness": 0,
+            "rain": 0,
+            "wind_speedy": "0 km/h",
+            "wind_direction": 0,
+            "condition_code": "27",
+            "condition_slug": "clear_night"
+          }
+        }
+      }
+    },
+    "execution_time": 0.07,
+    "from_cache": false
+  }
+}
